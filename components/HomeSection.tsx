@@ -21,13 +21,12 @@ export default async function HomeSection() {
       <div className="relative w-full rounded-xl overflow-hidden
       h-[98vh] lg:h-[97vh] 2xl:h-[96vh]">
         <video
-          src="/videos/hero-bg.mp4"
+          src="/videos/bg.mp4"
           autoPlay
           muted
           loop
           playsInline
-          className="absolute inset-0 w-full h-full object-cover grayscale
-          brightness-135"
+          className="absolute inset-0 w-full h-full object-cover grayscale brightness-90"
         />
         <div className="absolute inset-0 flex flex-col items-end justify-end text-center 
         tracking-widest bottom-1
