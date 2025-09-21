@@ -1,7 +1,6 @@
 "use client";
 import { useState } from "react";
 import React from 'react';
-import Link from 'next/link';
 
 const options = [
   { id: "Female", label: "Female" },
@@ -29,21 +28,18 @@ const Newsletter: React.FC = () => {
       md:px-12 md:py-12
       xl:px-17 xl:py-17">
 
-  {/* Left side (intro + privacy) */}
   <div className="md:col-span-2 flex flex-col justify-between">
-    {/* Intro text */}
     <div>
       <h3 className="text-lg font-semibold mb-4 tracking-wider">
         Sign up for Balmain updates
       </h3>
       <p className="mb-4 text-xs/6 font-semibold">
-        Be in the know about what's happening at the Parisian Maison: 
+        Be in the know about what&apos;s happening at the Parisian Maison: 
         never miss out on the latest trends, 
         newest collections and exciting special projects from Balmain.
       </p>
     </div>
 
-    {/* Privacy text */}
     <div className="text-zinc-400 mt-8 md:mt-0">
       <p className="mb-4 text-[11px]/5 tracking-wide">
         Pierre Balmain processes the data collected to send you our newsletter. 
@@ -60,7 +56,6 @@ const Newsletter: React.FC = () => {
     </div>
   </div>
 
-  {/* Right side (form) */}
   <div className="flex flex-col gap-6 md:col-span-1">
     <fieldset className="flex flex-wrap gap-11">
       <legend className="w-full text-base font-semibold mb-6">Gender *</legend>
@@ -101,9 +96,7 @@ const Newsletter: React.FC = () => {
       </button>
     </form>
   </div>
-
 </div>
-
     </section>
   );
 };

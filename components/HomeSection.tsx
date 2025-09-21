@@ -1,15 +1,5 @@
-//import { getAllProducts } from "@/sanity/lib/products/getAllProducts";
-//import { getAllCategories } from "@/sanity/lib/products/getAllCategories";
-import ProductsView from "@/components/ProductsView";
-import Link from "next/link";
-
-export const dynamic = "force-static";
-export const revalidate = 60;
 
 export default async function HomeSection() {
-  //const products = await getAllProducts();
-  //const categories = await getAllCategories();
-
   return (
     <div className="min-h-screen w-full cursor-pointer
       px-2 pt-2
@@ -21,7 +11,7 @@ export default async function HomeSection() {
       <div className="relative w-full rounded-xl overflow-hidden
       h-[98vh] lg:h-[97vh] 2xl:h-[96vh]">
         <video
-          src="/videos/bg.mp4"
+          src="/vids/bg.mp4"
           autoPlay
           muted
           loop

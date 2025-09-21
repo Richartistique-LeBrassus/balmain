@@ -6,7 +6,7 @@ import NewsletterWrapper from "@/components/ui/newsletterwrapper";
 //import SplashScreen from "@/components/ui/splashscreen";
 
 export const metadata: Metadata = {
-  title: 'Richartistry x Balmain | Designer Clothing & Bags',
+  title: 'Richartistique x Balmain | Designer Clothing & Bags',
   description: 'Balmain Blackout Rendition by MJ Ríchards',
   icons: {
     icon: [

@@ -67,7 +67,7 @@ export const Nav = () => {
                   >
                     <Link href="/" className="text-white cursor-pointer">
                       <div className="tracking-widest uppercase">
-                        <h3 className="text-xs">signé Richartistry</h3>
+                        <h3 className="text-xs">signé Richartistique</h3>
                         <h2 className="text-2xl font-bold">BALMAIN</h2>
                       </div>
                     </Link>

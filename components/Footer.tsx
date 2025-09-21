@@ -46,7 +46,7 @@ const Footer: React.FC = () => {
 
       <div className="font-bold w-full text-center tracking-wider py-28">
         <h2 className="text-4xl mb-1">BALMAIN</h2>
-        <h3 className="text-xs">signé Richartistry</h3>
+        <h3 className="text-xs">signé Richartistique</h3>
       </div>   
 
       <div className="border-y border-zinc-700 w-full px-auto">
@@ -81,7 +81,7 @@ const Footer: React.FC = () => {
       </div>
 
       <div className="mt-10 text-center text-xs text-gray-400">
-        &copy; {new Date().getFullYear()} Balmain by Richartistry
+        &copy; {new Date().getFullYear()} Balmain by Richartistique
       </div>
     </footer>
   );

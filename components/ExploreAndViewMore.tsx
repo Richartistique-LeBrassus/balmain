@@ -52,7 +52,7 @@ export default async function HomeSection() {
     justify-center text-center px-4 gap-5">
       <div className="relative h-[40vh] sm:h-[60vh] w-full">
         <Image
-          src="/imgs/ysl-women.jpg"
+          src="/imgs/sync.jpg"
           alt="Eyewear"
           fill
           className="object-contain grayscale"

@@ -39,11 +39,10 @@ export default function ProductTypes() {
           <Image
             src="/imgs/dress.avif"
             alt="Eyewear"
-            //fill
+            unoptimized
             priority  
-            width={1200}
-            height={1500}
-            //sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+            width={584}
+            height={727}
             className="absolute inset-0 w-full h-full object-cover grayscale object-top"
           />
           <div className="absolute inset-0 flex flex-col items-end justify-end text-center 

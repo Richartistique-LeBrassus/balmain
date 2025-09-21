@@ -9,14 +9,11 @@ const Categories = () => {
       <div 
         className="relative w-full h-[50vh] lg:h-[40vh] xl:h-[60vh] cursor-pointer"
       >
-        <video
-          src="/videos/shoes.mp4"
-          muted
-          loop
-          autoPlay  
-          className="absolute w-full h-full object-cover rounded-xl grayscale brightness-110" 
-        >
-        </video>
+        <img
+          src="/imgs/boots.avif"
+          alt="womens shoes"
+          className="absolute w-full h-full object-cover rounded-xl grayscale object-bottom" 
+        />
         <div className="flex flex-col items-end h-full justify-end text-center 
         tracking-widest top-1
         text-white uppercase p-4 text-xs drop-shadow-2xl">
@@ -34,7 +31,7 @@ const Categories = () => {
         className="relative w-full h-[50vh] lg:h-[40vh] xl:h-[60vh] cursor-pointer"
       >
         <img
-          src="/imgs/leopard.png"
+          src="/imgs/centre.avif"
           alt="womens shoes"
           className="absolute w-full h-full object-cover rounded-xl grayscale
           object-top" 
@@ -56,7 +53,7 @@ const Categories = () => {
         className="relative w-full h-[50vh] lg:h-[40vh] xl:h-[60vh] cursor-pointer"
       >
         <img
-          src="/imgs/rtw.png"
+          src="/imgs/ac.avif"
           alt="womens shoes"
           className="absolute w-full h-full object-cover rounded-xl grayscale" 
         />        
@@ -64,7 +61,7 @@ const Categories = () => {
         tracking-widest
         text-white uppercase p-4 text-xs drop-shadow-2xl">
           <h2 className="font-bold mb-1">
-            Ready to wear
+            Accessories 
           </h2>
           <button className='bg-stone-50 text-black
             uppercase rounded-3xl px-7 py-2 mt-3 duration-300

@@ -51,12 +51,12 @@ const FallWinter25Video = () => {
       h-[98vh] lg:h-[97vh] 2xl:h-[65vh]">
         <video
           ref={videoRef}
-          src="/videos/highlight.mp4"
+          src="/vids/blk.mp4"
           autoPlay
           muted
           loop
           playsInline
-          className="absolute inset-0 w-full h-full object-cover grayscale brightness-125"
+          className="absolute inset-0 w-full h-full object-cover grayscale 2xl:object-top"
         />
         <button
           onClick={togglePlay}
