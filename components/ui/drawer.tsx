@@ -41,7 +41,7 @@ const Drawer: React.FC<DrawerProps> = ({ isOpen, onClose }) => {
         transition={{ type: "tween", duration: 0.4 }}
         className="fixed top-0 right-0 h-full w-full 
         lg:w-[50vw] text-center
-       bg-black z-[9999] shadow-xl py-36 overflow-y-auto "
+       bg-rose-950 z-[9999] shadow-xl py-36 overflow-y-auto "
         role="dialog"
         aria-modal="true"
       >
@@ -65,7 +65,7 @@ const Drawer: React.FC<DrawerProps> = ({ isOpen, onClose }) => {
             type="text"
             placeholder="SEARCH"
             className="w-3/4 pb-2 border-b border-stone-50 text-wide
-            bg-black text-stone-50 placeholder:text-stone-50 
+            bg-rose-950 text-stone-50 placeholder:text-stone-50 
             hover:text-stone-300 placeholder:text-wide
             focus:outline-none transition"
             

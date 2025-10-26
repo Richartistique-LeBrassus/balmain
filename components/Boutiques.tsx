@@ -7,16 +7,12 @@ const Boutiques: React.FC = () => {
 
   return (
     <section className="min-h-fit 
-    text-white text-sm w-full mt-3 
-    px-2
-    lg:px-3
-    xl:px-4
-    2xl:px-5">
+    bg-rose-50 text-neutral-900 text-sm w-full border-y border-rose-200">
+      <div className="mx-auto grid grid-cols-1 md:grid-cols-3 gap-1 px-1 my-1
+       uppercase tracking-widest">
 
-      <div className="mx-auto grid grid-cols-1 md:grid-cols-3 gap-3 uppercase tracking-widest">
-
-        <div className="flex flex-col space-y-2 mb-2
-        bg-zinc-900 rounded-xl px-6 py-6
+        <div className="flex flex-col space-y-2 
+        bg-rose-100 rounded-xs px-6 py-6
         md:py-24 md:items-center">
           <h2 className="text-lg font-semibold mb-4 tracking-wider">
             Boutiques
@@ -27,16 +23,16 @@ const Boutiques: React.FC = () => {
           </p>
           <button
             type="submit"
-            className="bg-white text-black mt-3 rounded-4xl text-[11px]
-            hover:bg-gray-200 transition duration-500 font-bold tracking-widest
+            className="bg-white text-black mt-3 rounded-xs text-[11px]
+            hover:bg-rose-950 hover:text-white transition duration-500 font-bold tracking-widest
             w-fit h-fit py-2 px-4 uppercase cursor-pointer"
           >
             See our Boutiques
           </button>
         </div>  
 
-        <div className="flex flex-col space-y-2 mb-2
-        bg-zinc-900 rounded-xl px-6 py-6
+        <div className="flex flex-col space-y-2 
+        bg-rose-100 rounded-xs px-6 py-6
         md:py-24 md:items-center">
           <h2 className="text-lg font-semibold mb-4 tracking-wider">
             Customer Care
@@ -48,16 +44,16 @@ const Boutiques: React.FC = () => {
           </p>
           <button
             type="submit"
-            className="bg-white text-black mt-3 rounded-4xl text-[11px]
-            hover:bg-gray-200 transition duration-500 font-bold tracking-widest
+            className="bg-white text-black mt-3 rounded-xs text-[11px]
+            hover:bg-rose-950 hover:text-white transition duration-500 font-bold tracking-widest
             w-fit h-fit py-2 px-4 uppercase cursor-pointer"
           >
             Get in Touch
           </button>
         </div>
 
-        <div className="flex flex-col space-y-2 mb-2
-        bg-zinc-900 rounded-xl px-6 py-6
+        <div className="flex flex-col space-y-2 
+        bg-rose-100 rounded-xs px-6 py-6
         md:py-24 md:items-center">
           <h2 className="text-lg font-semibold mb-4 tracking-wider">
             FAQ
@@ -68,8 +64,8 @@ const Boutiques: React.FC = () => {
           </p>
           <button
             type="submit"
-            className="bg-white text-black mt-3 rounded-4xl text-[11px]
-            hover:bg-gray-200 transition duration-500 font-bold tracking-widest
+            className="bg-white text-black mt-3 rounded-xs text-[11px]
+            hover:bg-rose-950 hover:text-white transition duration-500 font-bold tracking-widest
             w-fit h-fit py-2 px-3 uppercase cursor-pointer"
           >
             See our FAQS

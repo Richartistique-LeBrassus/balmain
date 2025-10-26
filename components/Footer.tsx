@@ -45,7 +45,7 @@ const Footer: React.FC = () => {
       </div>  
 
       <div className="font-bold w-full text-center tracking-wider py-28">
-        <h2 className="text-4xl mb-1">BALMAIN</h2>
+        <h2 className="text-4xl mb-1 logo text-amber-300">BALMAIN</h2>
         <h3 className="text-xs">signé Richartistique</h3>
       </div>   
 

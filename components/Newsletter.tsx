@@ -13,14 +13,11 @@ const Newsletter: React.FC = () => {
 
   return (
     <section className="min-h-fit 
-     w-full px-2
-     lg:px-3
-     xl:px-4
-     2xl:px-5
+      w-full
     ">
-      <div className="bg-zinc-900 uppercase tracking-widest
-      text-white text-sm font-light w-full min-h-fit
-      grid grid-cols-1 md:grid-cols-3 gap-7 rounded-xl
+      <div className="bg-rose-100 text-neutral-900 uppercase tracking-widest
+      text-sm font-light w-full min-h-fit
+      grid grid-cols-1 md:grid-cols-3 gap-7
       md:gap-16
       lg:gap-20
       xl:gap-24
@@ -40,14 +37,14 @@ const Newsletter: React.FC = () => {
       </p>
     </div>
 
-    <div className="text-zinc-400 mt-8 md:mt-0">
-      <p className="mb-4 text-[11px]/5 tracking-wide">
+    <div className="text-neutral-400 mt-8 md:mt-0">
+      <p className="mb-4 text-[11px]/5 tracking-wide font-bold">
         Pierre Balmain processes the data collected to send you our newsletter. 
         To find out more about how we manage your personal data and to exercise your rights, 
-        please refer to our <span className="underline text-white"> privacy policy</span>.
+        please refer to our <span className="underline text-neutral-600"> privacy policy</span>.
       </p>
 
-      <p className="mb-4 text-[11px]/5 tracking-wide">
+      <p className="mb-4 text-[11px]/5 tracking-wide font-bold">
         *Mandatory information: 
         If you choose not to give your consent for the collection of 
         mandatory data you will not be able to 
@@ -73,7 +70,7 @@ const Newsletter: React.FC = () => {
           <label htmlFor={option.id} className="flex items-center cursor-pointer">
             <span className="w-[13px] h-[13px] inline-block mr-2 rounded-full border
              border-gray-400 peer-checked:border-black peer-checked:bg-white transition-colors duration-200" />
-            <span className="text-sm">{option.label}</span>
+            <span className="text-sm font-bold">{option.label}</span>
           </label>
         </div>
       ))}
@@ -84,12 +81,14 @@ const Newsletter: React.FC = () => {
       <input
         type="email"
         placeholder="Email"
-        className="p-2 text-white border-b border-white mb-12 placeholder:uppercase uppercase"
+        className="p-2 neutral-900 border-b border-white 
+        mb-12 placeholder:text-neutral-900 placeholder:uppercase uppercase
+        focus:outline-none focus:ring-0"
       />
       <button
         type="submit"
-        className="w-fit h-fit py-4 px-8 bg-white text-black rounded-4xl 
-        text-[11px] hover:bg-gray-200 transition duration-500 uppercase font-bold tracking-widest
+        className="w-fit h-fit py-4 px-8 bg-white text-neutral-900 rounded-xs 
+        text-[11px] hover:bg-rose-950 hover:text-white transition duration-500 uppercase font-bold tracking-widest
         cursor-pointer"
       >
         Subscribe

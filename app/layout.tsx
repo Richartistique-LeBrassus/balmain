@@ -3,10 +3,11 @@ import "../app/globals.css";
 import { Nav } from "@/components/Nav";
 import Footer from "@/components/Footer";
 import NewsletterWrapper from "@/components/ui/newsletterwrapper";
+import FooterComponent from "@/components/FooterComponent";
 //import SplashScreen from "@/components/ui/splashscreen";
 
 export const metadata: Metadata = {
-  title: 'Richartistique x Balmain | Designer Clothing & Bags',
+  title: 'Balmain Bordeaux Seventies Richartistique | Designer Clothing & Bags',
   description: 'Balmain Blackout Rendition by MJ Ríchards',
   icons: {
     icon: [
@@ -29,13 +30,13 @@ export default async function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`bg-black antialiased`}
+        className={`bg-rose-950 antialiased`}
       >
         <main>
           <Nav />
           {children}
           <NewsletterWrapper />
-          <Footer />
+          <FooterComponent />
         </main>
       </body>
     </html>
